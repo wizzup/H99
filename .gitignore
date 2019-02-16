@@ -5,3 +5,7 @@ dist-newstyle/
 
 ## Nix ##
 result
+
+## scripts ##
+script/cache/
+script/out/

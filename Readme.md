@@ -2,6 +2,17 @@
 
 This repository is attempt to modernize [99 Haskell problems](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems) by integrate build system (cabal) and testing (doctest, cabal's test).
 
+### Progression
+
+* List
+* Arithmetic
+* Logic
+* BTree
+* MTree
+* Graph
+* Misc
+
+
 # Testing
 
 ```
