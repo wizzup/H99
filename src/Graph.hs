@@ -22,7 +22,7 @@ cycle = undefined
 -- | Problem #83: (**) Construct all spanning trees
 -- >>> length $ spanningTree k4
 -- 16
-length = undefined
+spanningTree = undefined
 
 -- | Problem #84: (**) Construct the minimal spanning tree
 -- >>> prim [1,2,3,4,5] [(1,2,12),(1,3,34),(1,5,78),(2,4,55),(2,5,32),(3,4,61),(3,5,44),(4,5,93)]
@@ -57,4 +57,3 @@ connectedComponents = undefined
 -- >>> bipartite ([1,2,3,4,5],[(1,2),(2,3),(1,4),(3,4),(5,2),(5,4),(1,3)])
 -- False
 bipartite = undefined
-

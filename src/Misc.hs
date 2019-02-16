@@ -5,7 +5,7 @@ module Misc where
 -- 92
 -- >>> head (queens 8)
 -- [1,5,8,6,3,7,2,4]
-length = undefined
+queens = undefined
 
 -- | Problem #91: (**) Knight's tour
 -- >>> head $ knightsTo 8 (1,1)
@@ -26,12 +26,12 @@ length = undefined
 -- (8,4),(7,2),(5,1),(4,3),(3,5),(1,4),(2,2),(4,1),
 -- (6,2),(8,1),(7,3),(5,2),(7,1),(8,3),(7,5),(8,7),
 -- (6,8),(4,7),(2,8),(1,6),(2,4),(1,2),(3,1),(2,3)]
-head = undefined
+closedKnights = undefined
 
 -- | Problem #92: (***) Von Koch's conjecture
 -- >>>  head $ vonKoch [(1,6),(2,6),(3,6),(4,6),(5,6),(5,7),(5,8),(8,9),(5,10),(10,11),(11,12),(11,13),(13,14)]
 -- [6,7,8,9,3,4,10,11,5,12,2,13,14,1]
-head = undefined
+vonKoch = undefined
 
 -- | Problem #93: (***) An arithmetic puzzle
 -- >>> mapM_ putStrLn $ puzzle [2,3,5,7,11]
@@ -45,12 +45,12 @@ head = undefined
 -- 2-(3-5-7) = 11
 -- 2-(3-5)+7 = 11
 -- 2-3+5+7 = 11
-mapM_ = undefined
+puzzle = undefined
 
 -- | Problem #94: (***) Generate K-regular simple graphs with N nodes
 -- >>> length $ regular 6 3
 -- 2
-length = undefined
+regular = undefined
 
 -- | Problem #95: (**) English number words
 -- >>> fullWords 175
@@ -68,6 +68,7 @@ identifier = undefined
 
 -- | Problem #97: (**) Sudoku
 --
+sudoku = undefined
 
 
 -- | Problem #98: (***) Nonograms
@@ -83,7 +84,7 @@ identifier = undefined
 -- |_|_|_|X|X|_|_|_| 2
 --  1 3 1 7 5 3 4 3
 --  2 1 5 1
-putStr = undefined
+nonogram = undefined
 
 -- | Problem #99: (***) Crossword puzzle
 -- >>> solve $ readCrossword "ALPHA\nARES\nPOPPY\n\n  .  \n  .  \n.....\n  . .\n  . .\n    .\n"
@@ -91,5 +92,6 @@ putStr = undefined
 -- [[((3,1),'A'),((3,2),'L'),((3,3),'P'),((3,4),'H'),((3,5),'A'),((1,3),'P'),((2,3)
 -- ,'O'),((3,3),'P'),((4,3),'P'),((5,3),'Y'),((3,5),'A'),((4,5),'R'),((5,5),'E'),((
 -- 6,5),'S')]]
+readCrossword = undefined
 solve = undefined
 

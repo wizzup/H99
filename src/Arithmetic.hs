@@ -8,7 +8,7 @@ isPrime = undefined
 -- | Problem #32: (**) Determine the greatest common divisor of two positive integer numbers. Use Euclid's algorithm.
 -- >>> [myGCD 36 63, myGCD (-3) (-6), myGCD (-3) 6]
 -- [9,3,3]
-[myGCD = undefined
+myGCD = undefined
 
 -- | Problem #33: (*) Determine whether two positive integer numbers are coprime. Two numbers are coprime if their greatest common divisor equals 1.
 -- >>> coprime 35 64
@@ -32,11 +32,7 @@ prime_factors_mult = undefined
 
 -- | Problem #37: (**) Calculate Euler's totient function phi(m) (improved).
 --
-
-
--- | Problem #38: (*) Compare the two methods of calculating Euler's totient function.
---
-
+totient' = undefined
 
 -- | Problem #39: (*) A list of prime numbers.
 -- >>> primesR 10 20
@@ -54,4 +50,3 @@ goldbach = undefined
 -- >>> goldbachList' 4 2000 50
 -- [(73,919),(61,1321),(67,1789),(61,1867)]
 goldbachList = undefined
-

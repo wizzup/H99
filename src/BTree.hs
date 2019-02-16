@@ -1,10 +1,5 @@
 module BTree where
 
--- | Problem #54A: (*) Check whether a given term represents a binary tree
--- Tree a
--- True
-
-
 -- | Problem #55: (**) Construct completely balanced binary trees
 -- >>> cbalTree 4
 -- [
@@ -77,7 +72,7 @@ symCbalTrees = undefined
 --  Branch 'x' (Branch 'x' Empty Empty) (Branch 'x' (Branch 'x' Empty Empty) Empty),
 --  Branch 'x' (Branch 'x' Empty Empty) (Branch 'x' (Branch 'x' Empty Empty) (Branch 'x' Empty Empty)),
 --  Branch 'x' (Branch 'x' Empty (Branch 'x' Empty Empty)) (Branch 'x' Empty Empty)]
-take = undefined
+hbalTree = undefined
 
 -- | Problem #60: (**) Construct height-balanced binary trees with a given number of nodes
 -- minNodes
@@ -89,7 +84,7 @@ take = undefined
 --  [Branch 'x' Empty Empty],
 --  [Branch 'x' Empty (Branch 'x' Empty Empty),Branch 'x' (Branch 'x' Empty Empty) Empty],
 --  [Branch 'x' (Branch 'x' Empty Empty) (Branch 'x' Empty Empty)]]
-length = undefined
+hbalTreeNodes = undefined
 
 -- | Problem #61: Count the leaves of a binary tree
 -- >>> countLeaves tree4
@@ -167,14 +162,14 @@ layout = undefined
 --                         )
 --                         Empty
 --                 )
--- >>> layout tree65
+-- >>> layout' tree65
 -- Branch ('n',(15,1)) (Branch ('k',(7,2)) (Branch ('c',(3,3)) ...
-layout = undefined
+layout' = undefined
 
 -- | Problem #66: Yet another layout strategy is shown in the illustration below:
--- >>> layout tree65
+-- >>> layout'' tree65
 -- Branch ('n',(5,1)) (Branch ('k',(3,2)) (Branch ('c',(2,3)) ...
-layout = undefined
+layout'' = undefined
 
 -- | Problem #67A: A string representation of binary trees
 -- >>> stringToTree "x(y,a(,b))" >>= print
@@ -188,7 +183,7 @@ stringToTree = undefined
 --          po = treeToPreorder t ;
 --          io = treeToInorder t } in preInTree po io >>= print
 -- Branch 'a' (Branch 'b' (Branch 'd' Empty Empty) (Branch 'e' Empty Empty)) (Branch 'c' Empty (Branch 'f' (Branch 'g' Empty Empty) Empty))
-let = undefined
+preInTree = undefined
 
 -- | Problem #69: Dotstring representation of binary trees.
 -- >>> fst (ds2tree example)
@@ -196,5 +191,5 @@ let = undefined
 --
 -- >>> tree2ds (Branch 'x' (Branch 'y' Empty Empty) (Branch 'z' (Branch '0' Empty Empty) Empty))
 -- "xy..z0..."
-fst = undefined
-
+ds2tree = undefined
+tree2ds = undefined
